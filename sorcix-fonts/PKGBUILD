@@ -1,0 +1,29 @@
+pkgname=sorcix-fonts
+pkgver=1.0
+pkgrel=1
+arch=('any')
+url='http://vic.demuzere.be/'
+license=('custom')
+pkgdesc="Sorcix Fonts meta package"
+
+depends=(
+	'font-mathematica'
+	'adobe-source-code-pro-fonts'
+	'adobe-source-sans-pro-fonts'
+	'ttf-droid'
+	'ttf-bitstream-vera'
+	'ttf-cheapskate'
+	'ttf-dejavu'
+	'ttf-freefont'
+	'ttf-liberation'
+	'ttf-symbola'
+	'ttf-linux-libertine'
+	'ttf-ubuntu-font-family'
+	'ttf-junicode'
+	'ttf-gentium'
+	'ttf-ms-fonts'
+)
+
+package() {
+	:
+}
